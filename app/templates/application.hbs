@@ -1,3 +1,12 @@
-<h2 id="title">Ask Nietzsche</h2>
-
-{{outlet}}
+<div class="container">
+  <header class="jumbotron">
+    <h1>Ask Nietzsche</h1>
+  </header>
+  {{outlet}}
+  <hr>
+  <footer>
+    {{#link-to 'about'}}About{{/link-to}} <br>
+    {{#link-to 'contact'}}Contact{{/link-to}} <br>
+    {{#link-to 'index'}}Home{{/link-to}}
+  </footer>
+</div>
