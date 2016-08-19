@@ -15,6 +15,23 @@ _A question and answer message board where a user submits a question and other u
 * Allow users to add answers to a question.
 * Answers are added and viewed on the same page as the question they respond to.
 
+
+## Project Objectives
+
+* Application template contains header with link(s).
+
+* Data is stored in and retrieved from Ember Data models and Firebase.
+
+* Components are used to create display and behavior for your templates.
+
+* One-to-many relationship exists between Question and Answers.
+
+* Application works as expected.
+
+* Project is in a polished, portfolio-quality state.
+
+* Able to discuss the flow of your code and the concepts behind it with an instructor using correct terminology.
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
@@ -76,5 +93,5 @@ Specify what it takes to deploy your app.
   The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-  
+
   © 2016 Epicodus, Inc.
