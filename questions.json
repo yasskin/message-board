@@ -1,20 +1,27 @@
 { "questions": [{
-  "id": 1,
-  "content": "Who was Nietzsche?",
+  "content": "Who are you?",
   "author": "Sam",
-  "note": "biography",
-  "tag": "bio"
+  "note": "Biography",
+  "tag": "Nietzsche, Biography, Bios"
 }, {
-  "id": 2,
-  "content": "What is his philosophy about?",
-  "author": "Marty",
-  "note": "general question",
-  "tag": "content"
+  "content": "Is God dead?",
+  "author": "Nietzsche",
+  "note": "Metaphsics",
+  "tag": "Nietzsche, Biography, Bios"
 }, {
-  "id": 3,
-  "content": "What is the Ubermensch?",
+  "content": "Are you dead?",
+  "author": "God",
+  "note": "Biography",
+  "tag": "Nietzsche, Biography, Bios"
+}, {
+  "content": "Am I an übermensch?",
   "author": "Tony",
-  "note": "specific question",
-  "tag": "concept"
+  "note": "Existential",
+  "tag": "Nietzsche, Human Condition"
+}, {
+  "content": "What are the qualities of a genuine philosopher?",
+  "author": "Terry",
+  "note": "Existential",
+  "tag": "Nietzsche, Philosophers"
 }]
 }

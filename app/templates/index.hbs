@@ -1,9 +1,7 @@
-<h1>Question and Answer Message Board</h1>
+<h3>Index: Question and Answer Message Board</h3>
 <br>
-<ul>
   {{#each model as |question|}}
     <h4>{{question-tile question=question}}</h4>
   {{/each}}
-</ul>
 <hr>
 {{new-question saveQuestion="saveQuestion"}}

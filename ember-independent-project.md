@@ -19,6 +19,7 @@ If you have completed the objectives for the code review, consider adding some a
 Add custom styling.
 Implement upvote/downvote functionality so that users may vote on answers.
 Add tags to questions.
+
 Objectives
 Your code will be reviewed for the following objectives:
 

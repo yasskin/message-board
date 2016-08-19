@@ -1,0 +1,12 @@
+h1 {
+  font-size: 4em;
+}
+
+button {
+  color: green;
+}
+
+body {
+  background-image: url("../img/vista.jpg");
+  background-size: cover;
+}
