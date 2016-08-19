@@ -1,12 +1,23 @@
-h1 {
-  font-size: 4em;
-}
+@import 'https://fonts.googleapis.com/css?family=Germania+One|Rosarivo';
 
 button {
   color: green;
 }
 
 body {
-  background-image: url("../img/vista.jpg");
+  background: url("../img/vista.jpg") no-repeat bottom center fixed;
   background-size: cover;
+  font-family: 'Rosarivo', serif;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h1, h2 {
+  font-family: 'Germania One', cursive;
+}
+
+.btn-lg {
+  font-size: 1.4em;
 }
