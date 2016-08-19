@@ -1,0 +1,20 @@
+{ "questions": [{
+  "id": 1,
+  "content": "Who was Nietzsche?",
+  "author": "Sam",
+  "note": "biography",
+  "tag": "bio"
+}, {
+  "id": 2,
+  "content": "What is his philosophy about?",
+  "author": "Marty",
+  "note": "general question",
+  "tag": "content"
+}, {
+  "id": 3,
+  "content": "What is the Ubermensch?",
+  "author": "Tony",
+  "note": "specific question",
+  "tag": "concept"
+}]
+}
