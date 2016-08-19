@@ -11,5 +11,7 @@
     <button class="btn btn-lg" {{action 'saveAnswer'}}>Submit</button>
   </form>
 {{else}}
+  <hr>
+  <h3>Add Answer to this Question</h3>
   <button class="btn btn-lg" {{action 'showAnswerForm'}}>Reply</button>
 {{/if}}
