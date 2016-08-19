@@ -1,9 +1,9 @@
 <h1>Question and Answer Message Board</h1>
-
+<br>
 <ul>
   {{#each model as |question|}}
-    {{question-tile question=question}}
+    <h4>{{question-tile question=question}}</h4>
   {{/each}}
 </ul>
-
+<hr>
 {{new-question saveQuestion="saveQuestion"}}
