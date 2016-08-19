@@ -1,10 +1,11 @@
 <h1>Question and Answer Message Board</h1>
 
 <ul>
-  {{each model as |question|}}
-    <li>{{question.content}} by {{question.author}}</li>
+  {{#each model as |question|}}
+    {{question-tile question=question}}
   {{/each}}
 </ul>
+
 
 {{#link-to 'about'}}About{{/link-to}}
 {{#link-to 'contact'}}Click here to contact us.{{/link-to}}
