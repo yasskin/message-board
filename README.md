@@ -18,6 +18,12 @@ _A question and answer message board where a user submits a question and other u
 
 ## Project Objectives
 
+* The project contains at least one functioning computed property.
+
+* A service has been implemented successfully.
+
+* At least one custom helper is being used to format data.
+
 * Application template contains header with link(s).
 
 * Data is stored in and retrieved from Ember Data models and Firebase.
