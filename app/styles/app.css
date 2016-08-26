@@ -7,10 +7,6 @@ body {
   padding: 0;
 }
 
-button {
-  color: green;
-}
-
 body {
   background: url("../img/vista.jpg") no-repeat bottom center fixed;
   background-size: cover;
