@@ -1,10 +1,10 @@
 <h2>Nietzsche Shop</h2>
 <hr>
-{{product.title}}
-
-<button class="btn btn-lg btn-success" {{action 'addToCart' product}}>Add to Cart</button>
-<p>Cart:{{display-cart}}</p>
+<h4>{{product.title}}</h4>
+  <button class="btn btn-lg btn-success" {{action 'addToCart' product}}>Add to Cart</button>
+  <p>Cart:{{display-cart}}</p>
 <hr>
-{{product.description}}
-{{product.cost}}
-<img class="product-detail-img" src={{product.image}} alt={{product.title}} />
+<h5>$ {{product.cost}}.</h5>
+  <p>{{product.description}}</p>
+<hr>
+  <img class="product-detail-img" src={{product.image}} alt={{product.title}} />

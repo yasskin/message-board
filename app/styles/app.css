@@ -17,12 +17,16 @@ body {
   font-family: 'Rosarivo', serif;
 }
 
-img {
+.book-image {
+  width: 40%;
+}
+
+.carousel-image {
   width: 100%;
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 6em;
 }
 
 h1, h2 {

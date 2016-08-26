@@ -9,7 +9,8 @@ export default Ember.Component.extend({
     update(question) {
       var params = {
         content: this.get('content'),
-        author: this.get('author'),
+        firstName: this.get('firstName'),
+        lastName: this.get('lastName'),
         note: this.get('note'),
         tag: this.get('tag')
       };
