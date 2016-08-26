@@ -1,1 +1,9 @@
-{{outlet}}
+<h3>All Products.hbs</h3>
+<hr>
+{{new-product saveProduct="saveProduct"}}
+
+<div class="product">
+  {{#each model as |product|}}
+    {{product-tile product=product}}
+  {{/each}}
+</div>

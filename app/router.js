@@ -9,8 +9,7 @@ Router.map(function() {
   this.route('about');
   this.route('contact');
   this.route('question', {path: '/question/:question_id'});
-  this.route('store');
-  this.route('product');
+  this.route('product', {path: '/product/:product_id'});
   this.route('all-products');
 });
 

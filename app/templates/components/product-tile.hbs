@@ -1,8 +1,7 @@
-<h2>Nietzsche Shop</h2>
-<hr>
-{{product.title}}
-{{product.image}}
-{{product.description}}
-{{product.cost}}
-
-<button {{action 'addToCart' product}}>Add to Cart</button>
+<div class="all-products">
+  <img src={{product.image}} alt={{product.title}} />
+  <h4>{{#link-to 'product' product.id}} {{product.title}} {{/link-to}}</h4>
+  <p>
+    ${{product.cost}}
+  </p>
+</div>
