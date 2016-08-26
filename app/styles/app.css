@@ -1,5 +1,12 @@
 @import 'https://fonts.googleapis.com/css?family=Germania+One|Rosarivo';
 
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
 button {
   color: green;
 }
@@ -8,6 +15,10 @@ body {
   background: url("../img/vista.jpg") no-repeat bottom center fixed;
   background-size: cover;
   font-family: 'Rosarivo', serif;
+}
+
+img {
+  width: 100%;
 }
 
 h1 {
@@ -20,4 +31,11 @@ h1, h2 {
 
 .btn-lg {
   font-size: 1.4em;
+}
+
+input, textarea {
+  display: block;
+  width: 25em;
+  border-radius: 0.2em;
+  border: 1px solid lightgrey;
 }
