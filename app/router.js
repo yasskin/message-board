@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('question', {path: '/question/:question_id'});
   this.route('product', {path: '/product/:product_id'});
   this.route('all-products');
+  this.route('gallery');
 });
 
 export default Router;
